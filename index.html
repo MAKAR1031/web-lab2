@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <div id='app'>
+        <h1>Todo List</h1>
+
+        <ul>
+            <todo-item v-for='todo in todos' v-bind:todo='todo' />
+        </ul>
+
+        <todo-input v-on:click='addTodo' />
+    </div>
+
+    <script src="public/bundle.js"></script>
+</body>
+
+</html>

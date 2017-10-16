@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E2E2E2;
+  font-size: 1.2em;
 }
 
 #content {
@@ -23,21 +24,16 @@ body {
   border-bottom: 1px solid gray;
 }
 
-#todos-pane {
-  height: 80%;
-  margin-bottom: 20px;
-  overflow: auto;
-}
-
 #todos li {
   list-style-type: none;
   width: 95%;
-  font-size: 16px;
   text-align: left;
   margin: 10px 0;
-  &.priority-task {
-    color: red;
-  }
+}
+
+#todos li span.priority-task {
+  color: white;
+  background-color: rgb(228, 66, 66);
 }
 
 #title {
